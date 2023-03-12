@@ -5,7 +5,7 @@ public class Main {
 
         int a = calc.plus.apply(1, 2);
         int b = calc.minus.apply(1, 1);
-        int c = calc.devide.apply(a, b);
+        int c = calc.devide_if.apply(a, b);
         calc.println.accept(c);
 
     }
